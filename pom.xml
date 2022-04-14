@@ -24,5 +24,8 @@
         <module>mall-ware</module>
         <module>mall-member</module>
         <module>mall-order</module>
+        <module>mall-common</module>
+        <module>eeee</module>
+        <module>untitled</module>
     </modules>
 </project>
