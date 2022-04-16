@@ -3,32 +3,43 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:dev" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bfbe0e6-4264-4056-97fe-e5525572a971" name="Default Changelist" comment="feat: 几个模块的逆向生成代码" />
+    <list default="true" id="8bfbe0e6-4264-4056-97fe-e5525572a971" name="Default Changelist" comment="feat: 逆向生成代码+基础配置">
+      <change afterPath="$PROJECT_DIR$/mall-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/java/cool/cade/mall/common/exception/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/java/cool/cade/mall/common/utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/java/cool/cade/mall/common/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/java/cool/cade/mall/common/utils/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/java/cool/cade/mall/common/utils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/java/cool/cade/mall/common/xss/HTMLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/java/cool/cade/mall/common/xss/SQLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/test/java/cool/cade/mall/product/ProductApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-coupon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/cool/cade/mallcoupon/MallCouponApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/cool/cade/mall/coupon/CouponApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/test/java/cool/cade/mallcoupon/MallCouponApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-coupon/src/test/java/cool/cade/mall/coupon/CouponApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/cool/cade/mallmembr/MallMembrApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/cool/cade/mall/member/MembrApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/test/java/cool/cade/mallmembr/MallMembrApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/test/java/cool/cade/mall/member/MembrApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-order/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-order/src/main/java/cool/cade/mallorder/MallOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-order/src/main/java/cool/cade/mall/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-order/src/test/java/cool/cade/mallorder/MallOrderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-order/src/test/java/cool/cade/mall/order/OrderApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-product/src/main/java/cool/cade/mallproduct/MallProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-product/src/main/java/cool/cade/mall/product/ProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-product/src/test/java/cool/cade/mallproduct/MallProductApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-ware/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-ware/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-ware/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-ware/src/main/java/cool/cade/mallware/MallWareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-ware/src/main/java/cool/cade/mall/ware/WareApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-ware/src/test/java/cool/cade/mallware/MallWareApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-ware/src/test/java/cool/cade/mall/ware/WareApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,15 +48,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -55,14 +58,16 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$PROJECT_DIR$/../../../../../../Program Files/JAVA_TOOLS/apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectId" id="27jBwLIi6p9SQkupxblaQ5SUwWq" />
+  <component name="ProjectId" id="27q6vBYPl8znbLHdb2I8LWjVuJJ" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -74,13 +79,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/Cade/Desktop/code/java/a-little-mall",
+    "last_opened_file_path": "C:/Users/Cade/Desktop/code/java/a-little-mall/mall-ware/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "spring.configuration.checksum": "1340da72fbdd4899a8dcc2e7a639dc05"
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "spring.configuration.checksum": "2ae4fb26085cc3f01869eb9c1cdd0ddb"
   }
 }]]></component>
   <component name="RebelAgentSelection">
@@ -88,30 +92,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Cade\Desktop\code\java\a-little-mall" />
-      <recent name="C:\Users\Cade\Desktop\code\java\a-little-mall\mall-common\src\main\java\cool\cade\mall\common" />
-      <recent name="C:\Users\Cade\Desktop\code\java\a-little-mall\mall-common\src\main\java\cool\cade\mall\common\utils" />
+      <recent name="C:\Users\Cade\Desktop\code\java\a-little-mall\mall-ware\src\main\resources" />
+      <recent name="C:\Users\Cade\Desktop\code\java\a-little-mall\mall-order\src\main\resources" />
+      <recent name="C:\Users\Cade\Desktop\code\java\a-little-mall\mall-member\src\main\resources" />
+      <recent name="C:\Users\Cade\Desktop\code\java\a-little-mall\mall-coupon\src\main\resources" />
+      <recent name="C:\Users\Cade\Desktop\code\java\a-little-mall\mall-common\src\java\cool\cade\mall\common" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="cool.cade.mall.coupon" />
-      <recent name="cool.cade.mall.member" />
-      <recent name="cool.cade.mall.ware" />
       <recent name="cool.cade.mall.product" />
+      <recent name="cool.cade.mall.ware" />
       <recent name="cool.cade.mall.order" />
+      <recent name="cool.cade.mall.member" />
+      <recent name="cool.cade.mall.coupon" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cool.cade.mall.common.utils" />
+      <recent name="cool.cade.mall.common.exception" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.RenrenApplication (1)">
-    <configuration name="ProductApplicationTests.testSimpleCurd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProductApplicationTests.testBrandCURD">
+    <configuration name="ProductApplicationTests.testBrandCURD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mall-product" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +120,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="cool.cade.mall.product" />
       <option name="MAIN_CLASS_NAME" value="cool.cade.mall.product.ProductApplicationTests" />
-      <option name="METHOD_NAME" value="testSimpleCurd" />
+      <option name="METHOD_NAME" value="testBrandCURD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplicationTests.testBrandCurd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cool.cade.mall.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cool.cade.mall.product" />
+      <option name="MAIN_CLASS_NAME" value="cool.cade.mall.product.ProductApplicationTests" />
+      <option name="METHOD_NAME" value="testBrandCurd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,14 +151,14 @@
     </configuration>
     <configuration name="MallMembrApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mall-member" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cool.cade.mall.member.MemberApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cool.cade.mall.member.MembrApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MallOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mall-order" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cool.cade.mall.order.OrderApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cool.cade.mall.OrderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,60 +193,28 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductApplicationTests.testSimpleCurd" />
+        <item itemvalue="JUnit.ProductApplicationTests.testBrandCURD" />
+        <item itemvalue="JUnit.ProductApplicationTests.testBrandCurd" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8bfbe0e6-4264-4056-97fe-e5525572a971" name="Default Changelist" comment="" />
-      <created>1649823851442</created>
+      <created>1650035501303</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649823851442</updated>
-      <workItem from="1649823855020" duration="10506000" />
-      <workItem from="1649860007574" duration="235000" />
-      <workItem from="1649860571962" duration="2170000" />
-      <workItem from="1649862819159" duration="1105000" />
-      <workItem from="1649866274555" duration="1540000" />
-      <workItem from="1649901523378" duration="22000" />
-      <workItem from="1649912764179" duration="11604000" />
-      <workItem from="1649948699511" duration="556000" />
-      <workItem from="1649949320823" duration="24520000" />
+      <updated>1650035501303</updated>
+      <workItem from="1650035509974" duration="15000" />
+      <workItem from="1650035567074" duration="223000" />
+      <workItem from="1650035841825" duration="135000" />
+      <workItem from="1650036037196" duration="26000" />
+      <workItem from="1650036098690" duration="50000" />
+      <workItem from="1650036360169" duration="41000" />
+      <workItem from="1650036443204" duration="41000" />
+      <workItem from="1650036591054" duration="492000" />
+      <workItem from="1650037124815" duration="3671000" />
     </task>
-    <task id="LOCAL-00001" summary="feat: init project">
-      <created>1649839823512</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1649839823512</updated>
-    </task>
-    <task id="LOCAL-00002" summary="feat: 初始化renren-fast，以及修改一些错误包名">
-      <created>1649945928480</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1649945928480</updated>
-    </task>
-    <task id="LOCAL-00003" summary="feat: 逆向生成代码+基础CURD测试">
-      <created>1650018222309</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1650018222309</updated>
-    </task>
-    <task id="LOCAL-00004" summary="feat: 几个模块的逆向生成代码">
-      <created>1650025276969</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1650025276969</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,56 +225,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/dev" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="main" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/dev" />
-                </option>
-              </RecentGroup>
-            </list>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: init project" />
-    <MESSAGE value="feat: 初始化renren-fast，数据库配置，使其可运行" />
-    <MESSAGE value="feat: 初始化renren-fast，以及修改一些错误包名" />
-    <MESSAGE value="feat: 逆向生成代码+基础CURD测试" />
-    <MESSAGE value="feat: 几个模块的逆向生成代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 几个模块的逆向生成代码" />
+    <MESSAGE value="feat: 逆向生成代码+基础配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 逆向生成代码+基础配置" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

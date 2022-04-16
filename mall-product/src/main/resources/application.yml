@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: root
+    password: pqj.aehgi9_23n.
+    url: jdbc:mysql://43.138.129.175:3306/mall-pms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+
+# 默认就是classpath*:/mapper/**/*.xml，classpath*指的是任意的类路径下，不仅当前模块，
+# 不配也可以
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto # 自增主键
+
+server:
+  port: 10000
