@@ -14,10 +14,10 @@
     <name>mall</name>
     <description>a littile mall</description>
     <packaging>pom</packaging>
-    <!--<properties>-->
-    <!--    <java.version>17</java.version>-->
-    <!--    <spring-cloud.version>2021.0.1</spring-cloud.version>-->
-    <!--</properties>-->
+    <properties>
+        <java.version>11</java.version>
+        <spring-cloud.version>2021.0.1</spring-cloud.version>
+    </properties>
     <modules>
         <module>mall-product</module>
         <module>mall-coupon</module>
@@ -25,7 +25,5 @@
         <module>mall-member</module>
         <module>mall-order</module>
         <module>mall-common</module>
-        <module>eeee</module>
-        <module>untitled</module>
     </modules>
 </project>

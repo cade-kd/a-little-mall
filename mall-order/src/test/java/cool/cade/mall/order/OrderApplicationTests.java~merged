@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+package cool.cade.mall.order;
+=======
+<<<<<<< HEAD:mall-member/src/test/java/cool/cade/mall/member/MemberApplicationTests.java
+package cool.cade.mall.member;
+=======
+package cool.cade.mall.order;
+>>>>>>> dev:mall-order/src/test/java/cool/cade/mall/order/OrderApplicationTests.java
+>>>>>>> dev
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+<<<<<<< HEAD
+class OrderApplicationTests {
+=======
+<<<<<<< HEAD:mall-member/src/test/java/cool/cade/mall/member/MemberApplicationTests.java
+class MemberApplicationTests {
+=======
+class OrderApplicationTests {
+>>>>>>> dev:mall-order/src/test/java/cool/cade/mall/order/OrderApplicationTests.java
+>>>>>>> dev
+
+    @Test
+    void contextLoads() {
+    }
+
+}
