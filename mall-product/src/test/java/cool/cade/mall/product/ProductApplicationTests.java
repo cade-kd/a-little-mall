@@ -3,18 +3,54 @@ package cool.cade.mall.product;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import cool.cade.mall.product.entity.BrandEntity;
 import cool.cade.mall.product.service.BrandService;
+import lombok.Data;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.stereotype.Component;
 
+@RefreshScope
+@Component
+@Data
+class MyComponent{
+    @Value("${spring.datasource.username:default}")
+    private String username;
+
+}
 @SpringBootTest
+@Component
+@RefreshScope
 class ProductApplicationTests {
+
+
+    @Autowired
+    ConfigurableApplicationContext context;
     @Autowired
     BrandService brandService;
 
+    @Autowired
+    MyComponent myComponent;
+
+    @Value("${spring.datasource.username:default}")
+    private String username;
+
     @Test
     void contextLoads() {
+    }
 
+    @Test
+    void testNacosConfig() throws InterruptedException {
+        while(true) {
+            System.out.println("===========================================");
+            System.out.println("usrname from @Value =" + username);
+            System.out.println("username from context ="+context.getEnvironment().getProperty("spring.datasource.username"));
+            System.out.println("username from @Value in other bean = " + myComponent.getUsername());
+            System.out.println("-------------------------------------------");
+            Thread.sleep(1000);
+        }
     }
 
     @Test
