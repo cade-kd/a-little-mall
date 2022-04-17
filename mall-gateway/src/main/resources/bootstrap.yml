@@ -1,6 +1,6 @@
 spring:
   application:
-    name: mall-product
+    name: mall-gateway
   profiles:
     active: dev
 
@@ -14,6 +14,7 @@ spring:
         namespace: dev # 命名空间id
         group: A-LITTLE-MALL # 组，默认为 DEFAULT_GROUP
         file-extension: yaml # 配置内容的数据格式，默认为 properties
+        refresh-enabled: true # 默认就是true，如果不需要自动刷新，设为false
         extension-configs:
           - data-id: nacos-dev.yaml
             group: A-LITTLE-MALL
@@ -24,3 +25,5 @@ spring:
           - data-id: datasource-dev.yaml
             group: A-LITTLE-MALL
             refresh: true
+
+

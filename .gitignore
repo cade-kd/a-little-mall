@@ -15,3 +15,7 @@ tmp/*
 HELP.md
 *.zip
 /tmp/
+/.mvn/
+mvnw
+mvnw.*
+*.jar

@@ -12,11 +12,12 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.stereotype.Component;
 
-@RefreshScope
+//@RefreshScope
 @Component
 @Data
 class MyComponent{
-    @Value("${spring.datasource.username:default}")
+
+    @Value("${spring.datasource.username}")
     private String username;
 
 }
@@ -24,7 +25,6 @@ class MyComponent{
 @Component
 @RefreshScope
 class ProductApplicationTests {
-
 
     @Autowired
     ConfigurableApplicationContext context;
