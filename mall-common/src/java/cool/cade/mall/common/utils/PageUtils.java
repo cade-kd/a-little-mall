@@ -8,7 +8,6 @@
 
 package cool.cade.mall.common.utils;
 
-
 import com.baomidou.mybatisplus.core.metadata.IPage;
 
 import java.io.Serializable;
@@ -41,7 +40,7 @@ public class PageUtils implements Serializable {
 	 * 列表数据
 	 */
 	private List<?> list;
-	
+
 	/**
 	 * 分页
 	 * @param list        列表数据
@@ -107,5 +106,5 @@ public class PageUtils implements Serializable {
 	public void setList(List<?> list) {
 		this.list = list;
 	}
-	
+
 }
