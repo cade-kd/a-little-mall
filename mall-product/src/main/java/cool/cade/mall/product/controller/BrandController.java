@@ -2,11 +2,13 @@ package cool.cade.mall.product.controller;
 
 import cool.cade.mall.common.utils.PageUtils;
 import cool.cade.mall.common.utils.R;
-import cool.cade.mall.common.valid.AddGroup;
-import cool.cade.mall.common.valid.UpdateGroup;
-import cool.cade.mall.common.valid.UpdateStatusGroup;
+import cool.cade.mall.common.valid.group.AddGroup;
+import cool.cade.mall.common.valid.group.UpdateGroup;
+import cool.cade.mall.common.valid.group.UpdateStatusGroup;
 import cool.cade.mall.product.entity.BrandEntity;
 import cool.cade.mall.product.service.BrandService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -22,6 +24,8 @@ import java.util.Map;
  * @email cade@cade.cool
  * @date 2019-10-01 22:50:32
  */
+
+@Tag(name = "BrandController", description = "商品品牌管理")
 @RestController
 @RequestMapping("product/brand")
 public class BrandController {
@@ -31,9 +35,12 @@ public class BrandController {
     /**
      * 列表
      */
-    @RequestMapping("/list")
+    @Operation(summary = "获取所有品牌列表", description = "获取所有品牌列表")
+    @GetMapping("/list")
     //@RequiresPermissions("product:brand:list")
     public R list(@RequestParam Map<String, Object> params) {
+        System.out.println("===========");
+        System.out.println(params);
         PageUtils page = brandService.queryPage(params);
 
         return R.ok().put("page", page);
@@ -53,6 +60,7 @@ public class BrandController {
     /**
      * 保存
      */
+
     @RequestMapping("/save")
     //@RequiresPermissions("product:brand:save")
     public R save(@Validated({AddGroup.class}) @RequestBody BrandEntity brand/*,BindingResult result*/) {

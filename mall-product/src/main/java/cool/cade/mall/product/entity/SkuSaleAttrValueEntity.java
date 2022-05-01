@@ -2,17 +2,16 @@ package cool.cade.mall.product.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
 
 import java.io.Serializable;
-import java.util.Date;
-import lombok.Data;
 
 /**
  * sku销售属性&值
- * 
+ *
  * @author ander
  * @email cade@cade.cool
- * @date 2022-04-15 23:56:11
+ * @date 2019-10-01 21:08:49
  */
 @Data
 @TableName("pms_sku_sale_attr_value")

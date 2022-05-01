@@ -9,10 +9,10 @@ import lombok.Data;
 
 /**
  * 商品库存
- * 
- * @author ander
+ *
+ * @author Ander
  * @email cade@cade.cool
- * @date 2022-04-15 18:26:22
+ * @date 2019-10-08 09:59:40
  */
 @Data
 @TableName("wms_ware_sku")

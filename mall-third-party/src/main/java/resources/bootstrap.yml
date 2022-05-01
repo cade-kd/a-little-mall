@@ -18,3 +18,15 @@ spring:
           - data-id: nacos-dev.yaml
             group: A-LITTLE-MALL
             refresh: true
+          - data-id: mybatis-plus-dev.yaml
+            group: A-LITTLE-MALL
+            refresh: true
+          - data-id: datasource-dev.yaml
+            group: A-LITTLE-MALL
+            refresh: true
+          - data-id: redis-dev.yaml
+            group: A-LITTLE-MALL
+            refresh: true
+          - data-id: common-dev.yaml
+            group: A-LITTLE-MALL
+            refresh: true

@@ -10,6 +10,7 @@ package cool.cade.mall.common.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
+import cool.cade.mall.common.exception.BizCodeEnum;
 import org.apache.http.HttpStatus;
 
 import java.util.HashMap;
@@ -62,6 +63,10 @@ public class R extends HashMap<String, Object> {
         r.put("code", code);
         r.put("msg", msg);
         return r;
+    }
+
+    public static R error(BizCodeEnum codeEnum) {
+        return R.error(codeEnum.getCode(), codeEnum.getMsg());
     }
 
     public static R ok(String msg) {

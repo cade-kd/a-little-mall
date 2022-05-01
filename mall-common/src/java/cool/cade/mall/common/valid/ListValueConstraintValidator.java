@@ -8,6 +8,9 @@ import java.util.Set;
 /**
  * @author ander
  */
+
+// 泛型的第一个参数：校验注解类型
+// 第二个参数：校验的目标类型（即注解加在什么类型上）
 public class ListValueConstraintValidator implements ConstraintValidator<ListValue, Integer> {
 
     private final Set<Integer> set = new HashSet<>();

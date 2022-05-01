@@ -21,7 +21,7 @@ import java.util.TreeMap;
 @RestController
 @RequestMapping("/thirdparty/cos")
 public class QCloudCOSController {
-
+//      可以写一个properties接收
     @Value("${qcloud.cos.bucket-name}")
     String bucketName;
 

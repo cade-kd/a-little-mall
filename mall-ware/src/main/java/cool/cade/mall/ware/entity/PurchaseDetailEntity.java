@@ -9,11 +9,11 @@ import java.util.Date;
 import lombok.Data;
 
 /**
- * 
- * 
- * @author ander
+ *
+ *
+ * @author Ander
  * @email cade@cade.cool
- * @date 2022-04-15 18:26:22
+ * @date 2019-11-17 13:50:10
  */
 @Data
 @TableName("wms_purchase_detail")
@@ -21,7 +21,7 @@ public class PurchaseDetailEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	/**
-	 * 
+	 *
 	 */
 	@TableId
 	private Long id;

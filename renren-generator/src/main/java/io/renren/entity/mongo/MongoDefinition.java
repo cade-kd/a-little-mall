@@ -17,7 +17,7 @@ import java.util.*;
 public class MongoDefinition implements Serializable {
     /***属性名**/
     private String propertyName;
-    /***属性类型 对应mongodb api $type   如果没有类型 表示这是一个顶层实体  而不是内嵌属性**/
+    /***属性类型 对应mongodb controller $type   如果没有类型 表示这是一个顶层实体  而不是内嵌属性**/
     private Integer type;
     /***此属性是否是数组**/
     private boolean array = false;

@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import cool.cade.mall.common.utils.PageUtils;
 import cool.cade.mall.product.entity.SpuImagesEntity;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -11,10 +12,13 @@ import java.util.Map;
  *
  * @author ander
  * @email cade@cade.cool
- * @date 2022-04-15 23:56:11
+ * @date 2019-10-01 21:08:49
  */
 public interface SpuImagesService extends IService<SpuImagesEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    void saveImages(Long id, List<String> images);
+
 }
 

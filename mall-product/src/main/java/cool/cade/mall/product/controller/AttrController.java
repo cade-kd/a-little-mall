@@ -7,6 +7,7 @@ import cool.cade.mall.product.service.AttrService;
 import cool.cade.mall.product.service.ProductAttrValueService;
 import cool.cade.mall.product.vo.AttrRespVo;
 import cool.cade.mall.product.vo.AttrVo;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,6 +24,8 @@ import java.util.Map;
  * @email cade@cade.cool
  * @date 2019-10-01 22:50:32
  */
+
+@Tag(name = "AttrController", description = "商品属性管理")
 @RestController
 @RequestMapping("product/attr")
 public class AttrController {
@@ -45,12 +48,15 @@ public class AttrController {
 
     //product/attr/sale/list/0?
     ///product/attr/base/list/{catelogId}
+    //    一個儅兩個用，不建議這麽寫
+    //    TODO：拆分成兩個函數
     @GetMapping("/{attrType}/list/{catelogId}")
     public R baseAttrList(@RequestParam Map<String, Object> params,
                           @PathVariable("catelogId") Long catelogId,
                           @PathVariable("attrType")String type){
-
-        PageUtils page = attrService.queryBaseAttrPage(params,catelogId,type);
+        PageUtils page = null;
+        if(type.equals("base") || type.equals("sale"))
+            page = attrService.queryBaseAttrPage(params,catelogId,type);
         return R.ok().put("page", page);
     }
 

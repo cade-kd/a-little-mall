@@ -2,8 +2,10 @@ package cool.cade.mall.product.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import cool.cade.mall.common.utils.PageUtils;
+import cool.cade.mall.product.entity.BrandEntity;
 import cool.cade.mall.product.entity.CategoryBrandRelationEntity;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -11,10 +13,19 @@ import java.util.Map;
  *
  * @author ander
  * @email cade@cade.cool
- * @date 2022-04-15 23:56:11
+ * @date 2019-11-17 21:25:25
  */
 public interface CategoryBrandRelationService extends IService<CategoryBrandRelationEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    void saveDetail(CategoryBrandRelationEntity categoryBrandRelation);
+
+    void updateBrand(Long brandId, String name);
+
+    void updateCategory(Long catId, String name);
+
+    List<BrandEntity> getBrandsByCatId(Long catId);
+
 }
 
